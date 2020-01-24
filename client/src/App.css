@@ -1,0 +1,128 @@
+body {
+  background-color: red;
+
+ /* <div style="width: 500px;"> 
+ <div style="float: left; width: 200px;">Left Stuff</div>
+ <div style="float: left; width: 100px;">Middle Stuff</div>
+ <div style="float: left; width: 200px;">Right Stuff</div>
+ <br style="clear: left;" />
+</div> */
+   }
+
+ 
+/* Link Styles */
+.profile-image {
+  border: 3px
+  dotted yellow;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: 3px dotted yellow;
+  transform: scale(2.5) rotate(360deg);
+   }
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  margin: 10;
+  padding: 0;
+  text-align: center;
+  color: black;
+  background: red;
+}
+header {
+  text-align: center;
+  background-color: green;
+  background: img src= "shirtpics/namebrand.jpg";
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 50px;
+  }
+  
+header {
+  line-height: 1.5;
+}
+
+.profile-image {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:6px dotted yellow;
+  transition: all 0.5s;
+}
+.profile-image:hover {
+  transform: scale(2.5) rotate(360deg);
+}
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .navbar {
+    background-color: green;
+    display: flex;
+  }
+
+  .navbar a {
+    background-color: red;/*may need to take out*/
+    text-decoration: black;
+  }
+
+  .nav {
+    max-width: 60px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+
+  text-align: center;
+  background-color: green;
+  background: img src= "shirtpics/namebrand.jpg";
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+
+    
+  }
+}
+
+h3 {
+  color: green;
+  font-family: cursive;
+  letter-spacing: 3px;
+}
+
+.card-title {
+  text-align: center;
+  border: solid black 3px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
