@@ -25,18 +25,19 @@ export default function Register() {
       <form onSubmit={handleSubmit}>
         <input 
         type='email' placeholder='enter email'
-        onChange={e =>(e.target.value)}
+        onChange={e =>setEmail(e.target.value)}
           value={email} />
          <br />
         <input
-         type='password' placeholder='enter password' 
-         onChange={e=>(e.target.value)}
+         type='password' 
+         placeholder='enter password' 
+         onChange={e=>setPassword(e.target.value)}
           value={password} />
           <br />
         <input
          type='password'
           placeholder='verify your password'
-          onChange={e=>(e.target.value)}
+          onChange={e=>setPassword2(e.target.value)}
           value={password2} />
         <br />
         <button>SUBMIT</button>
