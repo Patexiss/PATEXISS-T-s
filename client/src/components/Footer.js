@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <span>PATEXISS T's</span>
-      <a href="url">Patexiss@patexissts.com</a>
+      <a href="url">patexissts@patexiss.com</a>
       <span>&copy; Patexiss</span>
     </footer>
   );
