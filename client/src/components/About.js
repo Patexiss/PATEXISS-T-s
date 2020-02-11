@@ -19,9 +19,9 @@ export default function About() {
       <br></br>
       <br></br>
       <br></br>
-            <h4>This is the beginning of a hopefully prosperous business.  First let me explain the name...  It is just simply a combination of mine and my daughter's name (Pat & Alexis) corny huh? LOL</h4>
+            <h4>Patexiss pronounced ([Puh] + [tex] + [sis])</h4>
         <br></br>
-      <h4>Second I know many of you may be judging negatively so this may not be the site for you. I have seen and experienced some of the pleasures and great healthful work of Marijuana helping people with eating disorders, anxiety, insomnia, hyperactivity, and etc. I wish it were age appropriately legal everywhere, so my campaign is</h4> 
+      <h4>I know many of you may be judging negatively so this may not be the site for you. I have seen and experienced some of the pleasures and great healthful work of Marijuana helping people with eating disorders, anxiety, insomnia, hyperactivity, and etc. I wish it were age appropriately legal everywhere, so my campaign is</h4> 
       <br></br>
       <br></br>
       <br></br>
